@@ -1,0 +1,11 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(43, 17, 17);
+  }
+  
+  #container {
+    width: 680px;
+    border: 1px rgb(41, 41, 207) double;
+    text-align: center;
+  }
