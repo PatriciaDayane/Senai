@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="mailto:someone@example.com?subject=Questions" title="">E-mail aqui</a>
-    <input type="submit" value="Enviar" />
-    
+    <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="text">Enderço:
+            <input type="text" id="Local" name="Local"><br><br>
+        </label>
+        <input type="submit" value="Submit">
+      </form>
 </body>
 </html>

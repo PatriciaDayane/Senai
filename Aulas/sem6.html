@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1 id="title">Olá! abra o Devtools</h1>
+
+    <button onclick="mudaCor()">muda cor</button>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
+const mudaCor = () => {
+  const title = document.getElementById('title');
+  title.style.color = 'blue';
+};
